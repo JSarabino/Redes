@@ -80,6 +80,27 @@ Dispositivos: es decir, los dispositivos que intercambian los mensajes.
 
 ## Preguntas de lectura: Capítulo 2
 
-La comunicación en una estructura de red puede constar de un dispositivo que requiere enviar un mensaje. El mensaje de origen se denomina como emisor que envía el mensaje de manera codificada a otro dispositivo llamado receptor, el envío se realiza por medio de de un transmisor o canal, para que luego el codificador recibe el mensaje y lo interpreta, lo decodifica.
-Los dispositivos y los medios son los elementos físicos o hardware de la red. Son componentes como una computadora portátil o personal, un switch, el cableado o los medios inalámbricos que se usan para conectar estos dispositivos.
-Los servicios y procesos son los programas de comunicación, el software que proporciona información en respuesta a una solicitud. Los procesos proporcionan la funcionalidad que direcciona y traslada mensajes a través de la red. Como e‐mail hosting o servicios de Web hosting.
+1. Describir la estructura de una red, incluidos los dispositivos, medios y servicios necesarios para lograr comunicaciones exitosas. 
+
+
+2. Comparar y contrastar los siguientes términos: RED, LAN, WAN, INTERNETWORK E INTERNET.
+redes locales LAN, WAN interconectan 2 o más LAN, se utiliza WAN cuando se requiere conectar redes LAN geográficamente distantes
+
+3. ¿Cuál es la diferencia entre INTERNETWORK E INTERNET?
+router es de internetworking, lo que hay en casa es un modem
+
+4. Describir la diferencia entre Tarjeta de interfaz de red (NIC), puerto físico e interfaz de red.
+
+5. ¿Por qué se dice que un protocolo es independiente de la tecnología? 
+porque la tecnología se debe de adaptar al protocolo, es decir, independiente de de la tecnología todos deben de llevar un módulo con el protocolo estandarizado.
+
+6. Consultar y explicar brevemente qué es una Unidad de Datos del Protocolo (PDU).
+
+
+7. Explicar la función de los protocolos en las comunicaciones de redes y para qué es el proceso de encapsulamiento de los datos (ilustrar el nombre que adopta cada PDU en cada capa del modelo TCP/IP mediante un dibujo).
+Encapsulamiento se refiere a cuando los datos pasan de una capa superior a una inferior, donde se pone una cabecera
+
+8. Describir la diferencia entre los modelos de protocolo y modelos de referencia.
+
+9. Describir la función de cada capa en los dos modelos de red: TCP/IP y OSI.
+
