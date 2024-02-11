@@ -126,12 +126,12 @@ Controlada y administrada por la organización.
 7. Explicar la función de los protocolos en las comunicaciones de redes y para qué es el proceso de encapsulamiento de los datos (ilustrar el nombre que adopta cada PDU en cada capa del modelo TCP/IP mediante un dibujo).
 - La función de los protocolos en las comunicaciones de redes es permitir la definición de conjuntos de reglas que permitan la comunicación y la transferencia de datos entre los dispositivos de una red. El proceso de encapsulamiento de los datos es una técnica que se utiliza para agregar encabezados con información para el control de los datos en cada capa del modelo OSI.
 
-  
+  ![Dibujo](imagen1.jpg)
 
-8. Describir la diferencia entre los modelos de protocolo y modelos de referencia.
+1. Describir la diferencia entre los modelos de protocolo y modelos de referencia.
 - los modelos de protocolo se centran en las reglas específicas que definen cómo funciona un protocolo de comunicación individual, mientras que los modelos de referencia proporcionan un marco conceptual más amplio para entender cómo se estructuran y se organizan las redes de computadoras y los protocolos de comunicación en general.
 
-9. Describir la función de cada capa en los dos modelos de red: TCP/IP y OSI.
+1. Describir la función de cada capa en los dos modelos de red: TCP/IP y OSI.
 - TCP/IP:
   - Aplicación: En esta capa, los datos originales, como un archivo o un mensaje de correo electrónico, son encapsulados en una PDU específica del protocolo de aplicación, como HTTP para el intercambio de páginas web o SMTP para el correo electrónico.
   
