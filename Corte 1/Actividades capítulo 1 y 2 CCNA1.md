@@ -126,6 +126,8 @@ Controlada y administrada por la organización.
 7. Explicar la función de los protocolos en las comunicaciones de redes y para qué es el proceso de encapsulamiento de los datos (ilustrar el nombre que adopta cada PDU en cada capa del modelo TCP/IP mediante un dibujo).
 - La función de los protocolos en las comunicaciones de redes es permitir la definición de conjuntos de reglas que permitan la comunicación y la transferencia de datos entre los dispositivos de una red. El proceso de encapsulamiento de los datos es una técnica que se utiliza para agregar encabezados con información para el control de los datos en cada capa del modelo OSI.
 
+  
+
 8. Describir la diferencia entre los modelos de protocolo y modelos de referencia.
 - los modelos de protocolo se centran en las reglas específicas que definen cómo funciona un protocolo de comunicación individual, mientras que los modelos de referencia proporcionan un marco conceptual más amplio para entender cómo se estructuran y se organizan las redes de computadoras y los protocolos de comunicación en general.
 
@@ -140,5 +142,16 @@ Controlada y administrada por la organización.
   - Acceso a la red: En esta capa, los paquetes IP se encapsulan en tramas específicas del medio de transmisión utilizado, como Ethernet, donde se agrega la información de direccionamiento de capa de enlace, como las direcciones MAC de origen y destino, para formar tramas Ethernet.
 
 - OSI:
-  - 
-
+  - Capa física: Esta capa se encarga de la transmisión física de datos a través del medio de comunicación, definiendo aspectos como la topología, la señalización y las características eléctricas.
+    
+  - Capa de enlace de datos: Aquí se establece la comunicación punto a punto entre nodos adyacentes en una red. Se encarga de la detección y corrección de errores, control de flujo y acceso al medio.
+    
+  - Capa de red: Esta capa se encarga del enrutamiento de datos a través de la red. Determina la ruta que deben seguir los paquetes desde el origen hasta el destino, además de controlar la congestión y la fragmentación de paquetes.
+    
+  - Capa de transporte: Aquí se proporciona un servicio de transporte confiable y orientado a la conexión entre los nodos finales. Se encarga de dividir los datos en segmentos, controlar el flujo, realizar la multiplexación/demultiplexación y garantizar la entrega ordenada.
+    
+  - Capa de sesión: Esta capa establece, administra y termina sesiones entre aplicaciones en diferentes dispositivos. Controla el diálogo entre las aplicaciones, sincronización y recuperación de errores en la comunicación.
+    
+  - Capa de presentación: Su función es la de traducir, cifrar y comprimir los datos para que sean entendidos por la aplicación receptora. También se encarga de la sintaxis y semántica de los datos.
+    
+  - Capa de aplicación: Esta capa proporciona servicios de red a las aplicaciones de usuario. Incluye protocolos de aplicación específicos como HTTP, FTP, SMTP, etc., que permiten la interacción entre las aplicaciones y los usuarios.
